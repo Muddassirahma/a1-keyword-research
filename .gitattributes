@@ -1,0 +1,14 @@
+# Default behavior
+# This file is used to override language statistics
+# Language detection rules
+src/**/*.ts linguist-detectable
+Cargo.lock linguist-generated
+src/**/*.tsx linguist-detectable
+public/* linguist-vendored
+
+*.yml linguist-detectable=false 
+*.gif binary
+*.woff binary
+
+*.md linguist-documentation
+# eof 88902380
